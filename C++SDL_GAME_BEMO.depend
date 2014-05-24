@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1400692626 source:/home/yassine/Bureau/C++SDL_GAME_BEMO/main.cpp
+	<iostream>
+	"Game.h"
+
+1400687699 source:/home/yassine/Bureau/C++SDL_GAME_BEMO/Map.cpp
+
+1400691392 source:/home/yassine/Bureau/C++SDL_GAME_BEMO/Game.cpp
+	"Game.h"
+	<iostream>
+
+1400691388 /home/yassine/Bureau/C++SDL_GAME_BEMO/Game.h
+	"SDL/SDL.h"
+	"Structs.h"
+	"Constants.h"
+
+1400689534 /home/yassine/Bureau/C++SDL_GAME_BEMO/Structs.h
+
+1400689534 /home/yassine/Bureau/C++SDL_GAME_BEMO/Constants.h
+
