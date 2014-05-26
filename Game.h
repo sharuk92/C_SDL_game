@@ -8,6 +8,8 @@
 
 class Game
 {
+	 protected:
+		
     SDL_Surface* screen;
     SDL_Surface* background;
     SDL_Surface* tileSet;
