@@ -60,33 +60,21 @@ void LEditor::getInput()
             case SDL_KEYUP:
                 switch (event.key.keysym.sym)
                 {
-                    case SDLK_DELETE:
-                        input.erase = 0;
-                    break;
-
-                    case SDLK_c:
-                        input.jump = 0;
-                    break;
-
                     case SDLK_LEFT:
-                        input.left = 0;
+						  		input.left = 0;
                     break;
 
-                    case SDLK_RIGHT:
-                        input.right = 0;
-                    break;
-
-                    case SDLK_DOWN:
-                        input.down = 0;
-                    break;
-
-                    case SDLK_UP:
-                        input.up = 0;
-                    break;
-
-                    case SDLK_RETURN:
-                        input.enter = 0;
-                    break;
+						  case SDLK_RIGHT:
+								input.right= 0;
+						  break;
+						
+						  case SDLK_UP:
+								input.up = 0;
+						  break;
+							
+						  case SDLK_DOWN:
+								input.down = 0;
+						  break;
 
                     default:
                     break;
