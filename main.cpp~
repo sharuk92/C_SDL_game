@@ -9,6 +9,11 @@ int main()
 	 
 	 LEditor editor("Level Editor");
 		
+    while(/*game.isRunning()*/ editor.isRunning())
+    {
+		  editor.draw();
+		  editor.getInput();
+    }
 
 
     return 0;

@@ -1,3 +1,3 @@
 
-Cgame: main.cpp Game.cpp Game.h
-	g++ main.cpp Game.cpp -lSDLmain -lSDL -o Cgame
+Cgame: main.cpp Game.cpp Game.h LEditor.cpp LEditor.h
+	g++ main.cpp Game.cpp LEditor.cpp -lSDLmain -lSDL -o Cgame
