@@ -81,6 +81,32 @@ void LEditor::getInput()
                 }
             break;
 
+				case SDLK_MOUSEBUTTONDOWN:
+					switch(event.button.button)
+					{
+						case SDLK_BUTTON_LEFT:
+							input.add = 1;
+							break;
+						
+						case SDLK_BUTTON_MIDDLE:
+							input.remove = 1;
+							break;
+					
+						case SDLK_BUTTOM_RIGHT:
+							input.copy = 1;
+							break;
+						
+						case SDLK_BUTTON_WHEELUP:
+							input.next = 1;
+							break;
+						case SDLK_BUTTON_WHEELDOWN:
+							input.previous = 1;
+							break;
+						default:
+							break;
+					}
+				break;
+
         }
 
     }
